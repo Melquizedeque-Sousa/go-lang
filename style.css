@@ -1,0 +1,159 @@
+
+/* Remove margens e espaçamentos padrão do navegador
+   e define a cor de fundo da página */
+body {
+    margin: 0;
+    padding: 0;
+    background: #302c34;
+}
+
+
+/*  CABEÇALHO  */
+
+/* Container superior */
+.cima {
+    display: flex;                   /* Organiza os itens em linha */
+    align-items: baseline;         /* Alinha os itens pela base do texto */
+    justify-content: space-between;   /* Espaça os elementos igualmente */
+    padding: 0 40px;                /* Espaçamento lateral */
+    background-color: red;         /* Cor de fundo do cabeçalho */
+}
+
+/* Nome e logo  */
+.cima .nomelogo {
+    color: rgb(0, 0, 0);               /* Cor do texto */
+    font-family: "Yuji Boku", serif;   /* Fonte personalizada */
+    font-weight: 400;
+    font-style: normal;
+    display: flex;                     /* Alinha texto e imagem lado a lado */
+    margin: 6px;
+    font-size: 18px;
+}
+
+/* Imagem do logo */
+.cima .nomelogo img {
+    margin: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Lista do menu */
+.menu ol {
+    display: flex;                     /* Itens em linha */
+    gap: 40px;                         /* Espaço entre os itens */
+    list-style-type: none;             /* Remove marcadores da lista */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+    text-decoration: none;
+}
+
+
+/*   CONTEÚDO PRINCIPAL*/
+
+.cont {
+    display: flex;             /* Layout em colunas */
+    text-align: left;
+    padding-top: 35px;
+    gap: 120px;      /* Espaçamento entre colunas */
+}
+
+
+/* Caixa lateral esquerda */
+.cont .lat {
+    background-color: #3a383f;
+    color: #e6c398;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5%;
+    height: 260px;
+    width: 200px;
+}
+
+/* Estilo da lista da barra lateral */
+.cont .lat ol {
+    list-style-type: circle;
+}
+
+
+
+/* Caixa principal de conteúdo */
+.cont .not {
+    background-color: #3a383f;
+    color: #e6c398;
+    text-align: center;
+    border-radius: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 600px;
+}
+
+/* Imagem da notícia */
+.cont .not img {
+    width: 600px;
+    height: 400px;
+    border-radius: 2%;
+}
+
+/* Parágrafo da notícia */
+.cont .not p {
+    text-align: center;
+}
+
+/* Links dentro do conteúdo */
+.cont a {
+    text-decoration: none;
+    color: #e6c398;
+}
+
+
+
+/* Caixa de anúncio */
+.cont .ad {
+    background-color: #3a383f;
+    color: #e6c398;
+    height: 350px;
+    width: 210px;
+    margin: 30px;
+    padding: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 5%;
+}
+
+/* Imagem do anúncio */
+.cont .ad img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Efeito hover no botão do anúncio */
+.cont .ad button:hover {
+    background-color: rgb(170, 45, 45);
+}
+
+
+
+/* Estilo do rodapé */
+footer {
+    background-color: #6e6b6bcc; /* cor de fundo */
+    padding: 40px; 
+    margin-top: auto;
+    text-align: center; /* centralizando o texto */
+}
+
+
+
+/* Caixa de informações */
+.info {
+    background-color: rgb(114, 7, 7);  /* cor de fundo */
+    display: inline-block;
+    padding: 20px 500px;
+}
+
+/* Centralização do texto informativo */
+.infoc {
+    text-align: center;   /* centralizando o texto */
+}
