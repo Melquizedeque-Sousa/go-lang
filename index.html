@@ -7,7 +7,7 @@
     <!-- CSS principal -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Fonte Google -->
+    <!--Fonte Google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap" rel="stylesheet">
@@ -15,7 +15,6 @@
     <title>Go lang</title>
 </head>
 <body>
-    
     <!-- TOPO DO SITE -->
     <div class="cima">
         <div class="nomelogo">
@@ -30,11 +29,12 @@
                 <li>Matérial</li>
                 <li>Exercícios</li>
                 <li>logar</li>
-                <li>
+                <li class="pes1">
                     <form action="javascript.js">
-                        <input type="text" id="pesquisa" name="pesquisa" placeholder="Pesquisar">
-                        <button type="button" onclick="msgp()">🔎</button>
+                        <input type="text" id="pesquisa" name="pesquisa" placeholder="Pesquisar" >
+                        <button type="button" id="button">🔎</button>
                     </form>
+                    <p id="res"></p>
                 </li>
             </ol>
         </div>
@@ -94,6 +94,6 @@
     <footer>
         Melquizedeque © 
     </footer>
-
+<script src="javascript.js"></script>
 </body>
 </html>

@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #302c34;
+}
+
+
+.cima {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: red;
+    
+}
+
+
+.cima .nomelogo {
+    color: rgb(0, 0, 0);
+    font-family: "Yuji Boku", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    margin: 6px;
+    font-size: 18px;
+}
+
+.cima .nomelogo img {
+    margin: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.menu ol {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+}
+
+.menu li:hover {
+    background-color: #d1b189 ;
+    padding: 5px;
+}
+
+
+.cont {
+    display: flex;
+    text-align: left;
+    padding-top: 35px;
+    gap: 60px;
+}
+
+.cont .lat {
+    background-color: #3a383f;
+    color: #e6c398;
+
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.cont .lat ol {
+    list-style-type: circle;
+}
+
+
+
+
+
+.cont .not p {
+    text-align: center;
+}
+.cont a{
+    text-decoration: none;
+    color: #e6c398;
+}
+
+
+.cont .ad {
+    background-color: #3a383f;
+    color: #e6c398;
+    height: 400px;
+    right: auto;
+    padding-right: 1px;
+    margin: 30px;
+    padding: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.cont .ad img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #6e6b6bcc;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin-top: auto;
+    text-align: center;
+}
+
+
+
+.info{
+    background-color: rgb(165, 9, 9);
+    display: inline-block;
+    padding: 20px 500px;
+}
+.infoc{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+}
+.log{
+    background-color: red;
+    text-align: center;
+    border-radius: 5%;
+    display: flex;
+    margin: 80px;
+    padding: 50px;
+    gap: 10px;
+}
+.log .a{
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+    width: 200px;
+    height: 20px;
+    align-items:center;
+    font-size: 10px;
+    gap: 20px;
+    text-align: center;
+}
+    
+

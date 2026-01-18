@@ -17,6 +17,11 @@ body {
     justify-content: space-between;   /* Espaça os elementos igualmente */
     padding: 0 40px;                /* Espaçamento lateral */
     background-color: red;         /* Cor de fundo do cabeçalho */
+    margin: 20px;
+    padding: -7px;
+    border-radius: 22px;
+    width: 1246px;
+    height: 130px;
 }
 
 /* Nome e logo  */
